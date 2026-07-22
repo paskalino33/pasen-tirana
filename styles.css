@@ -1,0 +1,25 @@
+# Pasen Tirana Website
+
+Premium, responsive static website prepared for GitHub Pages.
+
+## Publish on GitHub
+1. Create a new GitHub repository.
+2. Upload `index.html`, `styles.css`, `script.js`, and the `assets` folder.
+3. Open **Settings → Pages**.
+4. Under **Build and deployment**, select **Deploy from a branch**.
+5. Select the `main` branch and `/root`, then save.
+
+## Replace temporary photos
+The first design uses curated external food photography for a complete preview. For the final business version, place your own JPG photos in `assets/images/`, then replace each Unsplash URL in `styles.css` with a path such as:
+
+```css
+background-image: url('assets/images/byrek-hero.jpg');
+```
+
+Recommended image names:
+- `hero.jpg`
+- `story.jpg`
+- `byrek-mish.jpg`
+- `pite-spinaq.jpg`
+- `byrek-djathe.jpg`
+- `gallery-1.jpg` through `gallery-4.jpg`
